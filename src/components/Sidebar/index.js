@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -31,15 +30,32 @@ const Sidebar = () =>  {
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e"></FontAwesomeIcon>
 
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/">
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e"></FontAwesomeIcon>
 
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="/">
+            <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"></FontAwesomeIcon>
 
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/KenetMC'>
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"></FontAwesomeIcon>
+                </a>
+            </li>
+            <li>
+                <a target='_blank' rel='noreferrer' href='https://github.com/KenBoost'>
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon>
+                </a>
+            </li>
+            <li>
+                <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/KenetMC'>
+                    <FontAwesomeIcon icon={faInstagram} color="#4d4d4e"></FontAwesomeIcon>
+                </a>
+            </li>
+        </ul>
     </div>
     )
 }
