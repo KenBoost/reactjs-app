@@ -1,0 +1,32 @@
+$color-yellow : #ffd700;
+$color-grey :#8d8d8d;
+$color-lightgreen: #16c86c;
+$color-lightbrown:#a98204;
+
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+  }
+  
+  .text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+  
+    &:hover {
+      animation: rubberBand 1s;
+      color: $color-lightbrown;
+    }
+  }
+  
+  @for $i from 1 through 35 {
+    .text-animate._#{$i} {
+      animation-delay: #{$i / 10}s;
+    }
+  }
+  
