@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
+import Lenguages from '../Lenguages'
 import './index.scss';
 
 const Home = () => {
@@ -76,14 +77,16 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>Full Stack Developer / React Entusiast / Engineer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
       <Logo></Logo>
+      <div className="swiper-section">     
+       
       </div>
-
+      </div>
       <Loader type="pacman" />
     </>
   )

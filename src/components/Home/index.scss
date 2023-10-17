@@ -83,6 +83,12 @@ $color-lightbrown:#a98204;
         color: #333;
       }
     }
+
+    .swiper-section h1 {
+      position: absolute;
+      bottom: 0;
+      left: 10%; /* O la posición horizontal que desees */
+    }
   }
   
   
