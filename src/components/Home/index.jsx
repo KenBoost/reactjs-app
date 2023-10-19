@@ -78,13 +78,19 @@ const Home = () => {
             />
           </h1>
           <h2>Full Stack Developer / React Entusiast / Engineer</h2>
+          <br></br>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-        </div>
-      <Logo></Logo>
-      <div className="swiper-section">     
-       
+        </div>  
+        <br></br>
+      <div className="swiper-section">   
+     
+       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+
       </div>
       </div>
       <Loader type="pacman" />

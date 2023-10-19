@@ -4,16 +4,17 @@ $color-lightgreen: #16c86c;
 $color-lightbrown:#a98204;
 
 .home-page {
-    .text-zone {
-      position: absolute;
-      left: 10%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 40%;
+    max-width: 92%;
+    float: right;  
+
+    .text-zone {     
+      max-width: 100%;
       max-height: 90%;
+      margin-top: 10%;
+     
     }
   
-    h1 {
+    .text-zone h1 {
       color: #fff;
       font-size: 56px;
       line-height: 53px;
@@ -22,7 +23,7 @@ $color-lightbrown:#a98204;
       font-weight: 400;
   
       &:before {
-        content: '<h1>';
+       
         font-family: 'La Belle Aurore', cursive;
         color: $color-lightbrown;
         font-size: 18px;
@@ -33,7 +34,7 @@ $color-lightbrown:#a98204;
       }
   
       &:after {
-        content: '<h1/>';
+       
         font-family: 'La Belle Aurore', cursive;
         color: $color-lightbrown;
         font-size: 18px;
@@ -74,7 +75,7 @@ $color-lightbrown:#a98204;
       padding: 10px 18px;
       border: 1px solid $color-lightbrown;
       margin-top: 25px;
-      float: left;
+      
       animation: fadeInAnimation 1s 1.8s backwards;
       white-space: nowrap;
   
@@ -84,10 +85,10 @@ $color-lightbrown:#a98204;
       }
     }
 
-    .swiper-section h1 {
-      position: absolute;
-      bottom: 0;
-      left: 10%; /* O la posición horizontal que desees */
+    .swiper-section{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
     }
   }
   
