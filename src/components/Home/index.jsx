@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
-import Lenguages from '../Lenguages'
+
 import Carrusel from '../Swiper'
 import './index.scss';
 
@@ -78,14 +78,15 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Full Stack Developer / React Entusiast / Engineer</h2>
+          <h2 className='slogan'>Full Stack Developer / React Entusiast / Engineer</h2>
           <br></br>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>  
         <br></br>
-      <div className="swiper-section">    
+      <div className="swiper-section">  
+      <h2 className='titulo'>Lenguajes de mi experiencia!</h2>  
        <Carrusel></Carrusel>
       </div>
       </div>
