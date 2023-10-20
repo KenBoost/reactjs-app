@@ -1,8 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
-import { useEffect, useState, useRef } from "react"
 import './index.scss';
+import 'swiper/css';
 
 
 

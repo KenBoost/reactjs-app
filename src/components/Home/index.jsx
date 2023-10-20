@@ -6,6 +6,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import Lenguages from '../Lenguages'
+import Carrusel from '../Swiper'
 import './index.scss';
 
 const Home = () => {
@@ -84,13 +85,8 @@ const Home = () => {
           </Link>
         </div>  
         <br></br>
-      <div className="swiper-section">   
-     
-       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
-       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
-       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
-       <h1>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
-
+      <div className="swiper-section">    
+       <Carrusel></Carrusel>
       </div>
       </div>
       <Loader type="pacman" />
